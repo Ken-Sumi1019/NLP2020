@@ -1,7 +1,7 @@
-import chap3_2_30
+import chap4_2_30
 
 def dousi_kihon():
-    data = chap3_2_30.makeData()
+    data = chap4_2_30.makeData()
     result = []
     for sentenc in data:
         for word in sentenc:

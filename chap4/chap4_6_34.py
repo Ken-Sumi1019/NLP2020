@@ -1,4 +1,4 @@
-import chap3_2_30
+import chap4_2_30
 
 def connect(i,j,data):
     ref = ""
@@ -7,7 +7,7 @@ def connect(i,j,data):
     return ref
 
 def mostLongmeishi():
-    data = chap3_2_30.makeData()
+    data = chap4_2_30.makeData()
     result = []
     for sent in data:
         index = 0;max_ln = 0;max_words = ""

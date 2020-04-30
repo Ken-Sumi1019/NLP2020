@@ -1,8 +1,8 @@
-import chap3_7_35
+import chap4_7_35
 from matplotlib import pyplot as plt
 
 def graph():
-    data = chap3_7_35.hindo()[:10]
+    data = chap4_7_35.hindo()[:10]
     x = [v[0] for v in data]
     y = [v[1] for v in data]
     plt.bar(x,y)

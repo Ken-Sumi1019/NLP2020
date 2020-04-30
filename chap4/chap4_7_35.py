@@ -1,7 +1,7 @@
-import chap3_2_30
+import chap4_2_30
 
 def hindo():
-    data = chap3_2_30.makeData()
+    data = chap4_2_30.makeData()
     check = {}
     for sent in data:
         for v in sent:

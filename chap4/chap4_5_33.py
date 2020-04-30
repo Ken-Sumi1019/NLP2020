@@ -1,7 +1,7 @@
-import chap3_2_30
+import chap4_2_30
 
 def mashiku():
-    data = chap3_2_30.makeData()
+    data = chap4_2_30.makeData()
     result = []
     for sentence in data:
         for i in range(1,len(sentence)-1):
