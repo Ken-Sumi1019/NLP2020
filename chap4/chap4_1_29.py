@@ -3,7 +3,7 @@ import re
 
 def main():
     text = ""
-    with open("./neko.txt",encoding='utf-8') as f:
+    with open("../neko.txt",encoding='utf-8') as f:
         for tmp in f:
             text += re.sub("\n","",tmp)
 
