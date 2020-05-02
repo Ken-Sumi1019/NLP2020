@@ -48,9 +48,8 @@ def getData():
         for i in range(len(ls)):
             if ls[i].dst == -1:continue
             ls[ls[i].dst].srcs.append(ls[i].this)
-
         result.append(ls)
     return result
 
 if __name__ == "__main__":
-    pass
+    getData()
