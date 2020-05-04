@@ -12,7 +12,7 @@ class Morph:
     def cabochaSlice(self,row):
         ls = re.split("[\t,\n]",row)
         self.surface = ls[0]
-        self.base = ls[-4]
+        self.base = ls[-3]
         self.pos = ls[1]
         self.pos1 = ls[2]
 
